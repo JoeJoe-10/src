@@ -57,6 +57,10 @@ body {
     margin: 0 auto;
     padding: 1rem;
 }
+.container img{
+    widt:80%; 
+    height:100%;
+}
 .blog-post {
     background-color: white;
     margin: 1rem 0;
@@ -99,7 +103,7 @@ body {
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 90%;
+    max-width: 100%;
     margin: 2rem auto;
 }
 .contact-form label {
@@ -109,7 +113,7 @@ body {
 }
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
+    width: 80%;
     padding: 0.8rem;
     margin-bottom: 1rem;
     border: 1px solid #ddd;
